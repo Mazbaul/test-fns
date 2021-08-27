@@ -6,4 +6,4 @@ class, set some keys for the object, and call the object's displayAsTable() func
 an HTML table.
 
 #Solution
--solution is given in problem_1.php file
+- solution is given in problem_1.php file
