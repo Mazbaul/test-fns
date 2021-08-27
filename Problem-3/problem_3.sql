@@ -1,0 +1,1 @@
+SELECT user.user_id,user.first_name,user.last_name,test_result.average_correct,test_result.time_taken FROM user LEFT JOIN (SELECT user_id,AVG(correct) AS average_correct,max(time_taken) as time_taken FROM `test_result` GROUP BY user_id) as test_result ON user.user_id = test_result.user_id
