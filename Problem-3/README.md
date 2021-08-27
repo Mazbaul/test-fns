@@ -5,4 +5,4 @@ table, their average correct answers, as well as the time of their most recently
 should appear, even if they have not taken a test.
 
 #Solution
---sql query is given in problem_3.sql file
+- sql query is given in problem_3.sql file
